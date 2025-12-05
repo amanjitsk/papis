@@ -1,9 +1,9 @@
 [Desktop Entry]
 Type=Application
-Name=papis-open
+Name=Papis
 Comment=Launches the Papis document opener after picking a library
-Icon=utilities-terminal
-Terminal=true
-Exec=papis --pick-lib open
+Icon=papis
+Terminal=false
+Exec=env PAPIS_PICK=1 papis-open
 Categories=ConsoleOnly;Office
 MimeType=inode/directory;

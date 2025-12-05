@@ -149,7 +149,7 @@ def run(document: Document,
 
         files_to_open = pick(files, header_filter=os.path.basename)
         for file_to_open in files_to_open:
-            open_file(file_to_open, wait=False)
+            open_file(file_to_open, wait=True)
 
 
 @click.command("open")
